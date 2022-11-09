@@ -1,0 +1,99 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package tugasharian;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author AkmaL
+ */
+public class TugasHarian {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int nilai1 = 0, nilai2 = 0, nilai3 = 0, nilai4 = 0, nilai5 = 0;
+        System.out.println("SELAMAT DATANG");
+        System.out.println("MASUKKAN NILAI NILAI ANDA");
+        System.out.println("--------------------------");
+        System.out.print("nilai pertama = ");
+        nilai1 = input.nextInt();
+        System.out.print("nilai kedua = ");
+        nilai2 = input.nextInt();
+        System.out.print("nilai ketiga = ");
+        nilai3 = input.nextInt();
+        System.out.print("nilai keempat = ");
+        nilai4 = input.nextInt();
+        System.out.print("nilai kelima = ");
+        nilai5 = input.nextInt();
+        System.out.println("");
+
+        if (nilai1 < 60) {
+            System.out.println(nilai1 + " nilai anda kurang");
+        } else if (nilai1 > 60 && nilai1 <= 70) {
+            System.out.println(nilai1 + " nilai anda cukup");
+        } else if (nilai1 > 70 && nilai1 <= 80) {
+            System.out.println(nilai1 + " nilai anda baik");
+        } else if (nilai1 >= 80) {
+            System.out.println(nilai1 + " nilai anda luar biasa");
+        }
+
+        if (nilai2 < 60) {
+            System.out.println(nilai2 + " nilai anda kurang");
+        } else if (nilai2 > 60 && nilai2 <= 70) {
+            System.out.println(nilai2 + " nilai anda cukup");
+        } else if (nilai2 > 70 && nilai2 <= 80) {
+            System.out.println(nilai2 + " nilai anda baik");
+        } else if (nilai2 >= 80) {
+            System.out.println(nilai2 + " nilai anda luar biasa");
+        }
+
+        if (nilai3 < 60) {
+            System.out.println(nilai3 + " nilai anda kurang");
+        } else if (nilai3 > 60 && nilai3 <= 70) {
+            System.out.println(nilai3 + " nilai anda cukup");
+        } else if (nilai3 > 70 && nilai3 <= 80) {
+            System.out.println(nilai3 + " nilai anda baik");
+        } else if (nilai3 >= 80) {
+            System.out.println(nilai3 + " nilai anda luar biasa");
+        }
+
+        if (nilai4 < 60) {
+            System.out.println(nilai4 + " nilai anda kurang");
+        } else if (nilai4 > 60 && nilai4 <= 70) {
+            System.out.println(nilai4 + " nilai anda cukup");
+        } else if (nilai4 > 70 && nilai4 <= 80) {
+            System.out.println(nilai4 + " nilai anda baik");
+        } else if (nilai4 >= 80) {
+            System.out.println(nilai4 + " nilai anda luar biasa");
+        }
+
+        if (nilai5 < 60) {
+            System.out.println(nilai5 + " nilai anda kurang");
+        } else if (nilai5 > 60 && nilai5 <= 70) {
+            System.out.println(nilai5 + " nilai anda cukup");
+        } else if (nilai5 > 70 && nilai5 <= 80) {
+            System.out.println(nilai5 + " nilai anda baik");
+        } else if (nilai5 >= 80) {
+            System.out.println(nilai5 + " nilai anda luar biasa");
+        }
+        System.out.println("");
+        double ratarata = nilai1+nilai2+nilai3+nilai4+nilai5;
+        ratarata = ratarata/5;
+        System.out.println("Rata rata nilai anda adalah = "+ratarata);
+        if (ratarata < 60) {
+            System.out.println(ratarata + " nilai anda kurang");
+        } else if (ratarata > 60 && ratarata <= 70) {
+            System.out.println(ratarata + " nilai anda cukup");
+        } else if (ratarata > 70 && ratarata <= 80) {
+            System.out.println(ratarata + " nilai anda baik");
+        } else if (ratarata >= 80) {
+            System.out.println(ratarata + " nilai anda luar biasa");
+        }
+    }
+}
